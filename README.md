@@ -1,10 +1,10 @@
 AI-Powered Resume Analyzer
 
-A smart Python-based web application that analyzes and scores resumes using machine learning and NLP techniques. The system compares a candidate’s resume with a target job description and provides detailed, actionable insights.
+A smart Python-based web application that analyzes and scores resumes using machine learning and NLP techniques. The system compares a candidate’s resume against a job description and provides clear, actionable insights for improvement.
 
 🌟 Key Features
 
-Intelligent resume scoring based on job title, responsibilities, skills, and experience.
+Intelligent resume scoring based on job title, responsibilities, skills, and experience
 
 Detailed feedback on:
 
@@ -16,28 +16,28 @@ Education compatibility
 
 Resume structure and clarity
 
-Clean, user-friendly, and responsive UI.
+Clean, user-friendly, responsive UI
 
-Built with Flask, HTML, CSS, and JavaScript.
+Built using Flask, HTML, CSS, and JavaScript
 
-Uses NLP and machine learning to deliver accurate recommendations.
+Uses NLP and machine learning for accurate recommendations
 
 📱 Application Screens
 Home Screen
 
-Upload a resume (PDF/DOCX).
+Upload a resume (PDF or DOCX)
 
-Enter job details including title, description, required experience, skills, and educational requirements.
+Enter job details: title, description, required experience, skills, education
 
-Submit to receive instant analysis.
+Submit to receive instant analysis
 
 Analysis Screen
 
-Displays an overall resume score.
+Displays the overall resume score
 
-Breaks down performance across skills, experience, education, and structure.
+Shows detailed breakdowns for skills, experience, education, structure
 
-Shows personalized recommendations for improvement.
+Provides personalized recommendations for improvement
 
 🛠️ Technologies Used
 Frontend
@@ -70,7 +70,7 @@ python-docx (resume parsing)
 
 📝 Setup Instructions
 
-Follow these steps to run the project locally.
+Follow these steps to run the project locally:
 
 1. Clone the Repository
 git clone https://github.com/yourusername/AI_Resume_Analyzer.git
@@ -123,15 +123,15 @@ resume_analyzer/
 🎨 Customization
 1. Update Styles
 
-Modify static/css/styles.css to adjust colors, layout, animations, and UI theme.
+Modify static/css/styles.css to change the theme, layout, animations, and visual design.
 
 2. Update JavaScript
 
-Edit static/js/scripts.js to enhance form validation, animations, or client-side features.
+Edit static/js/scripts.js to enhance interactivity, form handling, and UI behavior.
 
 3. Improve the Machine Learning Model
 
-Update the ML/NLP pipeline in the models directory for better scoring accuracy and domain-specific improvements.
+Modify code in the models directory to boost accuracy, change scoring logic, or add new NLP features.
 
 📄 License
 
