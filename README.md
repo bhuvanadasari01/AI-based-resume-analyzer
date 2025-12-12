@@ -62,3 +62,64 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/yourusername/AI_Resume_Analyzer.git
 cd AI_Resume_Analyzer
+
+2. Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate     # macOS/Linux
+# On Windows:
+# venv\Scripts\activate
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Download SpaCy Language Model
+python -m spacy download en_core_web_sm
+
+5. Run the Application
+python run.py
+
+📄 Project Structure
+resume_analyzer/
+├── app/
+│   ├── main/
+│   │   ├── static/
+│   │   │   ├── css/
+│   │   │   │   └── styles.css
+│   │   │   ├── js/
+│   │   │   │   └── scripts.js
+│   │   ├── templates/
+│   │   │   ├── base.html
+│   │   │   └── index.html
+│   │   ├── __init__.py
+│   │   ├── routes.py
+│   │   ├── forms.py
+│   ├── __init__.py
+├── models/
+│   ├── __init__.py
+│   ├── resume_parser.py
+│   ├── job_description_parser.py
+│   ├── resume_scorer.py
+├── tests/
+│   ├── test_routes.py
+│   └── test_models.py
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── run.py
+
+🎨 Customization
+1. Update Styles
+
+Modify static/css/styles.css to change the visual theme, layout, colors, and animations.
+
+2. Update JavaScript
+
+Edit static/js/scripts.js to enhance interactivity, form validation, and UI behavior.
+
+3. Improve the Machine Learning Model
+
+Modify the modules in the models/ directory to improve scoring accuracy, add new NLP techniques, or tune the resume analysis logic.
+
+📄 License
+
+This project is licensed under the MIT License.
