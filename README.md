@@ -1,74 +1,95 @@
 AI-Powered Resume Analyzer
+
 A smart Python-based web application that analyzes and scores resumes using machine learning and NLP techniques. The system compares a candidate’s resume with a target job description and provides detailed, actionable insights.
 
-🌟 Features
+🌟 Key Features
 
-* Intelligent resume scoring based on job title, responsibilities, skills, and experience.
-* Detailed feedback on skill match, experience relevance, education compatibility, and resume structure.
-* Clean, user-friendly, and responsive UI.
-* Built with Flask, HTML, CSS, and JavaScript.
-* Uses NLP and machine learning to deliver accurate recommendations.
+Intelligent resume scoring based on job title, responsibilities, skills, and experience.
 
-📱 Screens
+Detailed feedback on:
 
-Home Screen:
+Skill match
 
-* Upload a resume (PDF/DOCX).
-* Enter job details including title, description, required experience, skills, and educational requirements.
-* Submit to receive instant analysis.
+Experience relevance
 
-Analysis Screen:
+Education compatibility
 
-* Displays an overall resume score.
-* Shows breakdowns for skills, experience, education, and structure.
-* Includes personalized recommendations.
+Resume structure and clarity
+
+Clean, user-friendly, and responsive UI.
+
+Built with Flask, HTML, CSS, and JavaScript.
+
+Uses NLP and machine learning to deliver accurate recommendations.
+
+📱 Application Screens
+Home Screen
+
+Upload a resume (PDF/DOCX).
+
+Enter job details including title, description, required experience, skills, and educational requirements.
+
+Submit to receive instant analysis.
+
+Analysis Screen
+
+Displays an overall resume score.
+
+Breaks down performance across skills, experience, education, and structure.
+
+Shows personalized recommendations for improvement.
 
 🛠️ Technologies Used
+Frontend
 
-Frontend:
+HTML
 
-* HTML
-* CSS
-* JavaScript
+CSS
 
-Backend:
+JavaScript
 
-* Python
-* Flask
+Backend
 
-Machine Learning / NLP:
+Python
 
-* spaCy
-* transformers
-* scikit-learn
+Flask
 
-Other Libraries:
+Machine Learning / NLP
 
-* Flask-WTF
-* python-docx
+spaCy
+
+transformers
+
+scikit-learn
+
+Other Libraries
+
+Flask-WTF (form handling)
+
+python-docx (resume parsing)
 
 📝 Setup Instructions
 
-1. Clone the repository:
-   git clone [https://github.com/yourusername/AI_Resume_Analyzer.git](https://github.com/yourusername/AI_Resume_Analyzer.git)
-   cd AI_Resume_Analyzer
+Follow these steps to run the project locally.
 
-2. Create a virtual environment:
-   python -m venv venv
-   source venv/bin/activate  # macOS/Linux
+1. Clone the Repository
+git clone https://github.com/yourusername/AI_Resume_Analyzer.git
+cd AI_Resume_Analyzer
 
-# On Windows use:
-
+2. Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate     # macOS/Linux
+# On Windows:
 # venv\Scripts\activate
 
-3. Install dependencies:
-   pip install -r requirements.txt
+3. Install Dependencies
+pip install -r requirements.txt
 
-4. Download SpaCy model:
-   python -m spacy download en_core_web_sm
+4. Download SpaCy Language Model
+python -m spacy download en_core_web_sm
 
-5. Run the application:
-   python run.py
+5. Run the Application
+python run.py
 
 📄 Project Structure
 resume_analyzer/
@@ -82,12 +103,12 @@ resume_analyzer/
 │   │   ├── templates/
 │   │   │   ├── base.html
 │   │   │   └── index.html
-│   │   ├── **init**.py
+│   │   ├── __init__.py
 │   │   ├── routes.py
 │   │   ├── forms.py
-│   ├── **init**.py
+│   ├── __init__.py
 ├── models/
-│   ├── **init**.py
+│   ├── __init__.py
 │   ├── resume_parser.py
 │   ├── job_description_parser.py
 │   ├── resume_scorer.py
@@ -100,10 +121,18 @@ resume_analyzer/
 └── run.py
 
 🎨 Customization
+1. Update Styles
 
-1. Update styles in static/css/styles.css to change the appearance.
-2. Modify static/js/scripts.js to enhance interactivity.
-3. Improve the machine learning logic in the models/ directory for better accuracy.
+Modify static/css/styles.css to adjust colors, layout, animations, and UI theme.
+
+2. Update JavaScript
+
+Edit static/js/scripts.js to enhance form validation, animations, or client-side features.
+
+3. Improve the Machine Learning Model
+
+Update the ML/NLP pipeline in the models directory for better scoring accuracy and domain-specific improvements.
 
 📄 License
+
 This project is licensed under the MIT License.
